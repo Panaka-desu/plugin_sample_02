@@ -1,0 +1,111 @@
+* {
+  font-size: 18px;
+  font-family: "MS Serif";
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+#container{
+  width: 100% ;
+  margin: 0 auto;
+}
+
+header {
+   position:relative;
+   height: 6.5rem;
+   background: #003366;
+   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+ }
+
+  header h1{
+    letter-spacing: 5px;  /*  文字の間 */
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    font-size: 2rem;
+    color: white;
+ }
+
+nav {
+  letter-spacing: 2px;
+  padding: 0.5rem 1rem ;
+  float : right;
+
+  margin: 1rem;
+  position: relative;
+  top: 22%;
+
+
+}
+  nav ul{
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li{
+    margin-right: 2rem;
+  }
+  nav ul li a {
+    color: white;
+  }
+
+main{
+  width: 84%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap：wrap;
+  justify-content:space-between;
+}
+
+  section{
+    flex: 5;
+    padding: 1rem;
+    background: #d9e3ee;
+  }
+
+    article{
+      min-height: 8rem;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      background: #FFF;
+    }
+
+  aside{
+    flex: 1;
+    padding: 1rem;
+    background: white;
+  }
+
+
+  #ImgSet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+  }
+
+  #ImgSet li {
+  list-style: none;
+  }
+
+  #ImgSet img {
+  display: block;
+  width: 90%;
+  margin: auto;
+  }
+
+footer {
+  padding: 1rem 3rem;
+  text-align: center;
+  background: #003366;
+  color: white;
+  font-size: 75%;
+}
+
+/*   margin　境界線の外側の余白
+     border　境界線
+     padding　境界線の内側の余白
+     width, height　幅と高さ    */
